@@ -3,16 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		02B3691325ED2C28005454CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B3691225ED2C28005454CF /* AppDelegate.swift */; };
 		02B3691525ED2C28005454CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B3691425ED2C28005454CF /* SceneDelegate.swift */; };
 		02B3691725ED2C28005454CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B3691625ED2C28005454CF /* ViewController.swift */; };
-		02B3691A25ED2C28005454CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B3691825ED2C28005454CF /* Main.storyboard */; };
 		02B3691C25ED2C29005454CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B3691B25ED2C29005454CF /* Assets.xcassets */; };
-		02B3691F25ED2C29005454CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B3691D25ED2C29005454CF /* LaunchScreen.storyboard */; };
+		2DDD2566791FF3B2092B80BC /* Pods_SnapKitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA1EA4B036C1A7DA3BBE98B /* Pods_SnapKitTest.framework */; };
+		47E3418F25EF4919005FCC2F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E3418E25EF4919005FCC2F /* NavigationController.swift */; };
+		47E3419225EF4968005FCC2F /* NewsFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E3419125EF4968005FCC2F /* NewsFeedController.swift */; };
+		47E3419825EF4A7B005FCC2F /* UIView_RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E3419725EF4A7B005FCC2F /* UIView_RoundedCorners.swift */; };
+		47E3419B25EF4AA2005FCC2F /* ModelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E3419A25EF4AA2005FCC2F /* ModelRow.swift */; };
+		47E341A525EF4D11005FCC2F /* Снимок экрана 2021-03-01 в 16.06 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47E341A425EF4D11005FCC2F /* Снимок экрана 2021-03-01 в 16.06 1.jpg */; };
+		47E341AC25EF528E005FCC2F /* ModelRow.json in Resources */ = {isa = PBXBuildFile; fileRef = 47E3419E25EF4AF4005FCC2F /* ModelRow.json */; };
+		47E341B125EF678B005FCC2F /* CellOfNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E341B025EF678B005FCC2F /* CellOfNews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +26,18 @@
 		02B3691225ED2C28005454CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02B3691425ED2C28005454CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		02B3691625ED2C28005454CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		02B3691925ED2C28005454CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02B3691B25ED2C29005454CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		02B3691E25ED2C29005454CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02B3692025ED2C29005454CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E3418E25EF4919005FCC2F /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		47E3419125EF4968005FCC2F /* NewsFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedController.swift; sourceTree = "<group>"; };
+		47E3419725EF4A7B005FCC2F /* UIView_RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_RoundedCorners.swift; sourceTree = "<group>"; };
+		47E3419A25EF4AA2005FCC2F /* ModelRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelRow.swift; sourceTree = "<group>"; };
+		47E3419E25EF4AF4005FCC2F /* ModelRow.json */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; path = ModelRow.json; sourceTree = "<group>"; };
+		47E341A425EF4D11005FCC2F /* Снимок экрана 2021-03-01 в 16.06 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Снимок экрана 2021-03-01 в 16.06 1.jpg"; sourceTree = "<group>"; };
+		47E341B025EF678B005FCC2F /* CellOfNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellOfNews.swift; sourceTree = "<group>"; };
+		73BC52D93BA30550006C2C65 /* Pods-SnapKitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKitTest.debug.xcconfig"; path = "Target Support Files/Pods-SnapKitTest/Pods-SnapKitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9AE7DADDF1A3E223A34F2568 /* Pods-SnapKitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKitTest.release.xcconfig"; path = "Target Support Files/Pods-SnapKitTest/Pods-SnapKitTest.release.xcconfig"; sourceTree = "<group>"; };
+		DAA1EA4B036C1A7DA3BBE98B /* Pods_SnapKitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapKitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DDD2566791FF3B2092B80BC /* Pods_SnapKitTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				02B3691125ED2C28005454CF /* SnapKitTest */,
 				02B3691025ED2C28005454CF /* Products */,
+				A5E8D6540170C41197CB4196 /* Pods */,
+				BC5C6824F363B4A22053FA7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +75,51 @@
 			children = (
 				02B3691225ED2C28005454CF /* AppDelegate.swift */,
 				02B3691425ED2C28005454CF /* SceneDelegate.swift */,
+				47E3418E25EF4919005FCC2F /* NavigationController.swift */,
+				47E3419125EF4968005FCC2F /* NewsFeedController.swift */,
+				47E341B025EF678B005FCC2F /* CellOfNews.swift */,
+				47E3419725EF4A7B005FCC2F /* UIView_RoundedCorners.swift */,
+				47E3419D25EF4AC2005FCC2F /* Model */,
 				02B3691625ED2C28005454CF /* ViewController.swift */,
-				02B3691825ED2C28005454CF /* Main.storyboard */,
 				02B3691B25ED2C29005454CF /* Assets.xcassets */,
-				02B3691D25ED2C29005454CF /* LaunchScreen.storyboard */,
+				47E341AE25EF5334005FCC2F /* Sources */,
 				02B3692025ED2C29005454CF /* Info.plist */,
 			);
 			path = SnapKitTest;
+			sourceTree = "<group>";
+		};
+		47E3419D25EF4AC2005FCC2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47E3419A25EF4AA2005FCC2F /* ModelRow.swift */,
+				47E3419E25EF4AF4005FCC2F /* ModelRow.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47E341AE25EF5334005FCC2F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				47E341A425EF4D11005FCC2F /* Снимок экрана 2021-03-01 в 16.06 1.jpg */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A5E8D6540170C41197CB4196 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73BC52D93BA30550006C2C65 /* Pods-SnapKitTest.debug.xcconfig */,
+				9AE7DADDF1A3E223A34F2568 /* Pods-SnapKitTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC5C6824F363B4A22053FA7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1EA4B036C1A7DA3BBE98B /* Pods_SnapKitTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02B3692325ED2C29005454CF /* Build configuration list for PBXNativeTarget "SnapKitTest" */;
 			buildPhases = (
+				17A02A13A44759C1FE78F499 /* [CP] Check Pods Manifest.lock */,
 				02B3690B25ED2C28005454CF /* Sources */,
 				02B3690C25ED2C28005454CF /* Frameworks */,
 				02B3690D25ED2C28005454CF /* Resources */,
+				CC36CFC2B0160B3B4D003F8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,13 +181,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02B3691F25ED2C29005454CF /* LaunchScreen.storyboard in Resources */,
+				47E341A525EF4D11005FCC2F /* Снимок экрана 2021-03-01 в 16.06 1.jpg in Resources */,
+				47E341AC25EF528E005FCC2F /* ModelRow.json in Resources */,
 				02B3691C25ED2C29005454CF /* Assets.xcassets in Resources */,
-				02B3691A25ED2C28005454CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17A02A13A44759C1FE78F499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapKitTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC36CFC2B0160B3B4D003F8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapKitTest/Pods-SnapKitTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapKitTest/Pods-SnapKitTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapKitTest/Pods-SnapKitTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02B3690B25ED2C28005454CF /* Sources */ = {
@@ -138,31 +237,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				02B3691725ED2C28005454CF /* ViewController.swift in Sources */,
+				47E3419B25EF4AA2005FCC2F /* ModelRow.swift in Sources */,
+				47E3418F25EF4919005FCC2F /* NavigationController.swift in Sources */,
+				47E3419825EF4A7B005FCC2F /* UIView_RoundedCorners.swift in Sources */,
 				02B3691325ED2C28005454CF /* AppDelegate.swift in Sources */,
+				47E341B125EF678B005FCC2F /* CellOfNews.swift in Sources */,
+				47E3419225EF4968005FCC2F /* NewsFeedController.swift in Sources */,
 				02B3691525ED2C28005454CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		02B3691825ED2C28005454CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02B3691925ED2C28005454CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		02B3691D25ED2C29005454CF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02B3691E25ED2C29005454CF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		02B3692125ED2C29005454CF /* Debug */ = {
@@ -283,6 +368,7 @@
 		};
 		02B3692425ED2C29005454CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BC52D93BA30550006C2C65 /* Pods-SnapKitTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +388,7 @@
 		};
 		02B3692525ED2C29005454CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE7DADDF1A3E223A34F2568 /* Pods-SnapKitTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
